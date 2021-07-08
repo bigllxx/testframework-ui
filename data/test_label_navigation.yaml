@@ -1,0 +1,47 @@
+test_add_label:
+  -
+    - 自动化标签1
+    - https://static.mampod.cn/cms_media/editor_upload/92ecc0f2068e4651a7dff1b77445bbe8.jpg
+  -
+    - 自动化标签2
+    - https://static.mampod.cn/cms_media/editor_upload/92ecc0f2068e4651a7dff1b77445bbe8.jpg
+  -
+    - 自动化标签3
+    - https://static.mampod.cn/cms_media/editor_upload/92ecc0f2068e4651a7dff1b77445bbe8.jpg
+
+test_update_label:
+  -
+    - 自动化标签4
+    - https://static.mampod.cn/cms_media/editor_upload/a0162713873a4ab4a038501724ca48ed.jpg
+  -
+    - 自动化标签5
+    - https://static.mampod.cn/cms_media/editor_upload/a0162713873a4ab4a038501724ca48ed.jpg
+  -
+    - 自动化标签6
+    - https://static.mampod.cn/cms_media/editor_upload/a0162713873a4ab4a038501724ca48ed.jpg
+
+test_search_label:
+  [乐高, 主题乐园, 绘本, 电影, 家庭关系, 育儿心理, 幼儿玩具]
+
+test_add_label_group:
+  -
+    - 自动化标签组
+    - https://static.mampod.cn/cms_media/editor_upload/a0162713873a4ab4a038501724ca48ed.jpg
+
+test_add_navigation:
+  -
+    - 自动化1
+    - 这是一个自动化导航栏，指向标签
+    - 标签
+  -
+    - 自动化2
+    - 这是一个自动化导航栏，指向标签组
+    - 标签组
+
+test_update_navigation:
+  - - 自动化3
+    - 这是一个自动化导航栏，指向标签哈哈
+    - 标签
+  - - 自动化4
+    - 这是一个自动化导航栏，指向标签组哈哈
+    - 标签组

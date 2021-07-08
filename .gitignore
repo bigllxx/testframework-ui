@@ -1,0 +1,5 @@
+/result/allure/
+/result/all.log
+/.pytest_cache
+/test/.pytest_cache
+/.idea

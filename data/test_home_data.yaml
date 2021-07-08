@@ -1,0 +1,173 @@
+test_home_search:
+  - - 2
+    - 2
+    - 2
+  - - 3
+    - 3
+    - 2
+  - - 4
+    - 4
+    - 4
+  - - 5
+    - 4
+    - 2
+  - - 2
+    - 6
+    - 2
+  - - 2
+    - 7
+    - 2
+
+test_add_homepage:
+  - - 0
+    - 0
+    - https://static.mampod.cn/cms_media/editor_upload/9fcd83ae600c4633b8c3573d36abe19d.png
+    - 轮播文章自动化
+  - - 0
+    - 1
+    - https://static.mampod.cn/cms_media/editor_upload/7544fadaadf749c5838280b1f0e593ef.png
+    - 轮播好物自动化
+  - - 0
+    - 2
+    - https://static.mampod.cn/cms_media/editor_upload/45450a64c9514d48b4bb5f8938eed83a.png
+    - 轮播视频自动化
+  - - 0
+    - 3
+    - https://static.mampod.cn/cms_media/editor_upload/23370117c64149ed90558b753df43a34.jpg
+    - 轮播清单自动化
+  - - 0
+    - 4
+    - https://static.mampod.cn/cms_media/editor_upload/74380e984f4041919e97f71865e55a51.png
+    - 轮播标签自动化
+  - - 0
+    - 6
+    - https://qinzi.static.mampod.cn/ttp/label/95b284125b90d023cded4cf42f14005b.jpeg
+    - 轮播话题自动化
+  - - 0
+    - 5
+    - https://static.mampod.cn/cms_media/editor_upload/3425f2e4bb25448d890ab3c358832e66.jpg
+    - 轮播标签组自动化
+  - - 1
+    - 0
+    - https://static.mampod.cn/cms_media/editor_upload/230c7763e8df4abd8a6eed95608b1240.jpg
+    - 首页瓦片文章自动化
+  - - 1
+    - 1
+    - https://static.mampod.cn/cms_media/editor_upload/7d715a44740d41abb1b6ae09497af8e5.jpg
+    - 首页瓦片好物自动化
+  - - 1
+    - 2
+    - https://static.mampod.cn/cms_media/editor_upload/dc21b13eca544b10904dce2f970588c4.jpg
+    - 首页瓦片视频自动化
+  - - 1
+    - 3
+    - https://qinzi.static.mampod.cn/ttp/label/7d2185a3f395674a9a2025570f3644ac.jpeg
+    - 首页瓦片清单自动化
+  - - 1
+    - 4
+    - https://static.mampod.cn/cms_media/editor_upload/cc05731e522845f2a0a5e8ce7b56f470.jpg
+    - 首页瓦片标签自动化
+  - - 1
+    - 6
+    - https://static.mampod.cn/app/portrait/default_avatar.png
+    - 首页瓦片话题自动化
+  - - 1
+    - 5
+    - https://qinzi.static.mampod.cn/ttp/label/d2f7552bb01c15d44e3eec392a863d89.jpeg
+    - 首页瓦片标签组自动化
+  - - 2
+    - 0
+    - https://static.mampod.cn/cms_media/editor_upload/5013590051bf402f8837f69ea6c9893f.jpg
+    - 推荐瓦片文章自动化
+  - - 2
+    - 1
+    - https://static.mampod.cn/cms_media/editor_upload/5d4e1c2172b5445a9a28bb8e805e103a.jpg
+    - 推荐瓦片好物自动化
+  - - 2
+    - 2
+    - https://static.mampod.cn/cms_media/editor_upload/84ddcc19a7a24b94ba6c976b6bc49f3c.jpg
+    - 推荐瓦片视频自动化
+  - - 2
+    - 3
+    - https://static.mampod.cn/cms_media/editor_upload/058ae26b38824e20811545268baf40ce.jpg
+    - 推荐瓦片清单自动化
+  - - 2
+    - 4
+    - https://static.mampod.cn/cms_media/editor_upload/d392b5bea53448ac8788a0d7ae8c4942.jpg
+    - 推荐瓦片标签自动化
+  - - 2
+    - 6
+    - https://static.mampod.cn/cms_media/editor_upload/5013590051bf402f8837f69ea6c9893f.jpg
+    - 推荐瓦片话题自动化
+  - - 2
+    - 5
+    - https://static.mampod.cn/cms_media/editor_upload/5d4e1c2172b5445a9a28bb8e805e103a.jpg
+    - 推荐瓦片标签组自动化
+  - - 3
+    - 0
+    - https://static.mampod.cn/ttp/editor/2716e083563e067f0e469bfb9ae61b1a.jpg
+    - 最热文章自动化
+  - - 3
+    - 1
+    - https://static.mampod.cn/cms_media/editor_upload/64d6d3de37424280a2a154ebba50ca83.jpg
+    - 最热好物自动化
+  - - 3
+    - 2
+    - https://static.mampod.cn/cms_media/editor_upload/61d6dba4a7714cc396f90cc5f38012b4.png
+    - 最热视频自动化
+  - - 3
+    - 3
+    - https://static.mampod.cn/cms_media/editor_upload/935870f5b6734a0192696a233cec3721.jpg
+    - 最热清单自动化
+  - - 3
+    - 4
+    - https://static.mampod.cn/ttp/editor/init_hot/36.jpg
+    - 最热标签自动化
+  - - 3
+    - 6
+    - https://static.mampod.cn/ttp/editor/init_hot/47.jpg
+    - 最热话题自动化
+  - - 3
+    - 5
+    - https://static.mampod.cn/ttp/editor/f55159ed0895d971c1585997ba6582be.jpg
+    - 最热标签组自动化
+  - - 4
+    - 0
+    - https://qinzi.static.mampod.cn/ttp/label/95b284125b90d023cded4cf42f14005b.jpeg
+    - 话题顶部文章自动化
+  - - 4
+    - 1
+    - https://qinzi.static.mampod.cn/ttp/label/89388f5e8c97b1f597e74ce98efdf5ad.jpeg
+    - 话题顶部好物自动化
+  - - 4
+    - 2
+    - https://qinzi.static.mampod.cn/ttp/label/a7e9944f8d50313dddae316826f4cef1.jpeg
+    - 话题顶部视频自动化
+  - - 4
+    - 3
+    - https://static.mampod.cn/cms_media/editor_upload/a253cdece25442e28fd8189cf7b7c371.jpg
+    - 话题顶部清单自动化
+  - - 4
+    - 4
+    - https://static.mampod.cn/cms_media/editor_upload/d3ff2ed8e05c49a6b6770799368a8fab.jpg
+    - 话题顶部标签自动化
+  - - 4
+    - 6
+    - https://static.mampod.cn/cms_media/editor_upload/3425f2e4bb25448d890ab3c358832e66.jpg
+    - 话题顶部话题自动化
+  - - 4
+    - 5
+    - https://qinzi.static.mampod.cn/ttp/label/53cbc935d5624a6b977ba98fc7bb22a6.jpeg
+    - 话题顶部标签组自动化
+test_home_down_shelve:
+  [2, 3, 4, 5]
+
+test_home_update:
+  - - 0
+    - 忽如一夜春风来
+  - - 1
+    - 千树万树梨花开
+  - - 2
+    - 小楼昨夜又东风
+  - - 3
+    - 自动化update

@@ -1,0 +1,43 @@
+test_add_topic:
+  - - 自动化1 有描述 非最热
+    - Python knows the usual control flow statements that other languages speak — if, for, while and range — with some of its own twists, of course. More control flow tools in Python 3. Python is a programming language that lets you work quickly and integrate systems more effectively.
+    - False
+    - https://static.mampod.cn/cms_media/editor_upload/f3442e74ac3b41c98a3dc11667c20b29.png
+  - - 自动化2 无描述 非最热
+    - ''
+    - False
+    - https://static.mampod.cn/cms_media/editor_upload/f3442e74ac3b41c98a3dc11667c20b29.png
+  - - 自动化3 有描述 最热
+    - Python knows the usual control flow statements that other languages speak — if, for, while and range — with some of its own twists, of course. More control flow tools in Python 3. Python is a programming language that lets you work quickly and integrate systems more effectively.
+    - True
+    - https://static.mampod.cn/cms_media/editor_upload/f3442e74ac3b41c98a3dc11667c20b29.png
+  - - 自动化4 无描述 最热
+    - ''
+    - True
+    - https://static.mampod.cn/cms_media/editor_upload/f3442e74ac3b41c98a3dc11667c20b29.png
+
+test_search_topic:
+  - 自动化1 有描述 非最热
+  - 自动化2 无描述 非最热
+  - 自动化3 有描述 最热
+  - 自动化4 无描述 最热
+
+test_update_topic:
+  - - 自动化话题5
+    - Python knows the usual control flow statements that other languages speak — if, for, while and range — with some of its own twists, of course. More control flow tools in Python 3. Python is a programming language that lets you work quickly and integrate systems more effectively.
+    - True
+    - https://static.mampod.cn/cms_media/editor_upload/23370117c64149ed90558b753df43a34.jpg
+  - - 自动化话题6
+    - ''
+    - True
+    - https://static.mampod.cn/cms_media/editor_upload/23370117c64149ed90558b753df43a34.jpg
+
+test_add_topic_group:
+  - - 自动化话
+    - Python knows the usual control flow statements that other languages speak — if, for, while and range — with some of its own twists, of course. More control flow tools in Python 3. Python is a programming language that lets you work quickly and integrate systems more effectively.
+    - https://static.mampod.cn/cms_media/editor_upload/23370117c64149ed90558b753df43a34.jpg
+
+test_update_topic_group:
+  - - 自动化
+    - ''
+    - https://static.mampod.cn/cms_media/editor_upload/f3442e74ac3b41c98a3dc11667c20b29.png
