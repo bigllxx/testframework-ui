@@ -69,11 +69,13 @@ def my_assert(ass, *args):
 
 class PgSql:
     def __init__(self):
-        host = get_config('/config.ini', 'all_config')['host']
-        self.conn = psycopg2.connect(database="hulattp", user="postgres", password="hb2gZVUos7vosADO", host=host,
+        self.host = get_config('/config.ini', 'all_config')['host']
+        self.conn = psycopg2.connect(database="hulattp", user="postgres", password="hb2gZVUos7vosADO", host=self.host,
                                      port="5432")
 
     def clear_home(self):
+        if self.host == '1.1.1.1':
+            return
         cur = self.conn.cursor()
         cur.execute("DELETE FROM homepage WHERE title like '%自动化%';")
         # self.cur.fetchall()  # 检索查询结果
@@ -81,6 +83,8 @@ class PgSql:
         self.conn.close()
 
     def clear_label(self):
+        if self.host == '1.1.1.1':
+            return
         cur = self.conn.cursor()
         cur.execute(
             "DELETE FROM label WHERE ID IN (SELECT ID FROM label RIGHT JOIN ( SELECT label_id FROM label_group_to_label WHERE group_id = ( SELECT ID FROM label_group WHERE NAME = '自动化标签组' ) ) AS son ON ID = label_id);")  # 先删标签
@@ -93,6 +97,8 @@ class PgSql:
         self.conn.close()
 
     def clear_topic(self):
+        if self.host == '1.1.1.1':
+            return
         content_id = []
         cur = self.conn.cursor()
         # 根据话题名称获取所有content_id
