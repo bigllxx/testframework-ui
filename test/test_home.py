@@ -39,13 +39,13 @@ class TestHome:
     def test_home_search(self, locate_type, jump_type, shelve_type):
         res = self.th.up_home().search(locate_type, jump_type, shelve_type)
         if locate_type == 2:
-            my_assert('assert args[0] == args[1]', res, '轮播图')
+            my_assert('assert args[0] == args[1] or None', res, '轮播图')
         elif locate_type == 3:
-            my_assert('assert args[0] == args[1]', res, '瓦片区')
+            my_assert('assert args[0] == args[1] or None', res, '瓦片区')
         elif locate_type == 4:
-            my_assert('assert args[0] == args[1]', res, '推荐页瓦片区')
+            my_assert('assert args[0] == args[1] or None', res, '推荐页瓦片区')
         elif locate_type == 5:
-            my_assert('assert args[1] in args[0]', res, '当前最热')
+            my_assert('assert args[1] in args[0] or None', res, '当前最热')
 
     @allure.story('下架广告位')
     @pytest.mark.parametrize('locate_type', data['test_home_down_shelve'])

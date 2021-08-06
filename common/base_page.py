@@ -40,10 +40,10 @@ class BasePage:
 
         el = (by, locator)
         try:
-            WebDriverWait(self.driver, 3).until(EC.visibility_of_element_located(el))
+            WebDriverWait(self.driver, 10).until(EC.presence_of_all_elements_located(el))
         except TimeoutException:
             self.log.logger.error('{} - 定位失败：{}'.format(self.log_name, locator))
-            return False
+            return None
         else:
             self.log.logger.info('{} - 定位成功：{}'.format(self.log_name, locator))
             return self.driver.find_element(by, locator)
@@ -61,7 +61,7 @@ class BasePage:
         except (TimeoutException, TypeError):
             self.log.logger.error('{} - 定位失败：{}'.format(self.log_name, locator))
             # self.log.logger.warn('{} - 定位失败：{}'.format(inspect.stack()[1][4][0], locator))
-            return False
+            return None
         else:
             self.log.logger.info('{} - 定位成功：{}'.format(self.log_name, locator))
             return self.driver.find_elements(by, locator)
