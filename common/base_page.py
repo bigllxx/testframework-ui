@@ -41,7 +41,7 @@ class BasePage:
         el = (by, locator)
         try:
             WebDriverWait(self.driver, 10).until(EC.presence_of_all_elements_located(el))
-        except TimeoutException:
+        except:
             self.log.logger.error('{} - 定位失败：{}'.format(self.log_name, locator))
             return None
         else:
